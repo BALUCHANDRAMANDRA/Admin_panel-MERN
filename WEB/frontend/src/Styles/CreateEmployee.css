@@ -1,0 +1,91 @@
+
+.create-employee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.create-employee-container h1 {
+    margin-bottom: 1rem;
+    font-size: 26px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
+
+.create-employee-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.create-employee-container label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #444;
+}
+
+.create-employee-container input,
+.create-employee-container select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+.create-employee-container input:focus,
+.create-employee-container select:focus {
+    border-color: #007bff;
+}
+
+.create-employee-container .radio-group,
+.create-employee-container .checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.create-employee-container .radio-group input[type="radio"],
+.create-employee-container .checkbox-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.create-employee-container .radio-group label,
+.create-employee-container .checkbox-group label {
+    margin-right: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.create-employee-container button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+}
+
+.create-employee-container button:hover {
+    background-color: #0056b3;
+}
+
+.create-employee-container p {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
